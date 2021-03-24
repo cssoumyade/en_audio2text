@@ -10,7 +10,7 @@ REQUIREMENTS = ['SpeechRecognition', 'pyaudio', 'regex', 'os-sys']
 
 # some more details
 CLASSIFIERS = [
-    'Development Status :: Inception Phase - Beta 1.0',
+    'Development Status :: Beta 0.0.1',
     'Intended Audience :: Personal Use',
     'Topic :: Speech Recognition',
     'License :: OSI Approved :: MIT License',
