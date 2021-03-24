@@ -13,7 +13,7 @@ Fast install:
 
 ::
 
-    pip install -i https://test.pypi.org/simple/ en-aud2text==0.0.1
+    pip install -i https://test.pypi.org/simple/ en-aud2text==1.0
 
 For a manual install get this package:
 

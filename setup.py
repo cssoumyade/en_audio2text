@@ -10,9 +10,9 @@ REQUIREMENTS = ['SpeechRecognition', 'pyaudio', 'regex', 'os-sys']
 
 # some more details
 classifiers=[
-	"Development Status :: 2 - Pre-Alpha",
-	"Intended Audience :: Other Audience",
-	"Topic :: Education :: Testing",
+        "Development Status :: 2 - Pre-Alpha",
+        "Intended Audience :: Other Audience",
+        "Topic :: Education :: Testing",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
@@ -21,7 +21,7 @@ classifiers=[
 
 # calling the setup function 
 setup(name='en_aud2text',
-      version='0.0.1',
+      version='1.0',
       description='small wrapper around speech recognition package',
       long_description=long_description,
       url='https://github.com/cssoumyade/en_audio2text',
