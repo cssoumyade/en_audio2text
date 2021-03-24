@@ -10,6 +10,9 @@ REQUIREMENTS = ['SpeechRecognition', 'pyaudio', 'regex', 'os-sys']
 
 # some more details
 classifiers=[
+	"Development Status :: 2 - Pre-Alpha",
+	"Intended Audience :: Other Audience",
+	"Topic :: Education :: Testing",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
