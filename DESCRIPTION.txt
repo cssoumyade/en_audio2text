@@ -13,7 +13,7 @@ Fast install:
 
 ::
 
-    pip install en_audio2text
+    pip install -i https://test.pypi.org/simple/ en-aud2text==0.0.1
 
 For a manual install get this package:
 
