@@ -15,6 +15,21 @@ Fast install:
 
     pip install en_audio2text
 
+For a manual install get this package:
+
+::
+
+    wget https://github.com/cssoumyade/en_audio2text/archive/master.zip
+    unzip master.zip
+    rm master.zip
+    cd en_audio2text-master
+
+Install the package:
+
+::
+
+    python setup.py install  
+
   
 
 Example
