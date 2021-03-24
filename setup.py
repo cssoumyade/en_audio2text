@@ -9,12 +9,10 @@ with open('DESCRIPTION.txt') as file:
 REQUIREMENTS = ['SpeechRecognition', 'pyaudio', 'regex', 'os-sys']
 
 # some more details
-CLASSIFIERS = [
-    'Development Status :: Beta 0.0.1',
-    'Intended Audience :: Personal Use',
-    'Topic :: Speech Recognition',
-    'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 3.6',
+CLASSIFIERS=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
     ]
 
 
