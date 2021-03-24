@@ -9,7 +9,7 @@ with open('DESCRIPTION.txt') as file:
 REQUIREMENTS = ['SpeechRecognition', 'pyaudio', 'regex', 'os-sys']
 
 # some more details
-CLASSIFIERS=[
+classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
@@ -26,7 +26,7 @@ setup(name='en_aud2text',
       author_email='cs.soumyade@gmail.com',
       license='MIT',
       packages=['en_audio2text'],
-      classifiers=CLASSIFIERS,
+      classifiers=classifiers,
       install_requires=REQUIREMENTS,
       keywords='speech audio text transcription'
       )
