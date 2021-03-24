@@ -19,7 +19,7 @@ CLASSIFIERS = [
 
 
 # calling the setup function 
-setup(name='aud2text',
+setup(name='en_aud2text',
       version='0.0.1',
       description='small wrapper around speech recognition package',
       long_description=long_description,
