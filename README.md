@@ -13,7 +13,7 @@ Instuctions for installation using pip
 
 
   
-###Example 1: Using microphone
+### Example 1: Using microphone
 --------
 
 .. code:: python
@@ -31,7 +31,7 @@ Instuctions for installation using pip
   'hi I am Alexios of sparta one of the many invincible warrior in the army'
 
 
-###Example 2: Using audio file
+### Example 2: Using audio file
 --------
 
 .. code:: python
@@ -49,7 +49,7 @@ Instuctions for installation using pip
   'you can not change what you have done wrong intentionaly in the past'
 
 
-###Example 3: Display all possible transcription
+### Example 3: Display all possible transcription
 --------
 
 .. code:: python
@@ -73,13 +73,15 @@ Instuctions for installation using pip
  'final': True}
 
 
-###Features in the present version
+#### Features in the present version:
+
 * can take audio input from microphone as well as audiofile usage given in examples
 * the act method returns a text or a dictionary of texts(along with probability confidences) depending upon the debug mode
 * if debug is set to False(default) act method returns only the transcription text
 * please note this version works only with english language
 
-###Features that can be considered for future versions
+#### Features that can be considered for future versions:
+
 * language support to different languages can be extended
 * automatic detection of language can be incorporated
 * various options can be incorporated like entity tagging etc.
