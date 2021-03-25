@@ -5,44 +5,21 @@ Can be used for getting english transcription from audio via microphone or audio
 
 The code is written in Python 3
 
-Installation
+Instuctions for installation using pip
 ------------
+1) pip install SpeechRecognition PyAudio
+2) pip install en-audio2text-soumyade 
 
-Fast install:
 
-::
-
-    pip install en-audio2text-soumyade
-
-For a manual install get this package:
-
-::
-
-    wget https://github.com/cssoumyade/en_audio2text/archive/master.zip
-    unzip master.zip
-    rm master.zip
-    cd en_audio2text-master
-
-Install the package:
-
-::
-
-    python setup.py install  
 
   
-
-Example
+Example 1: Using microphone
 --------
 
 .. code:: python
 
     from en_audio2text.aud2text import SpeechRecognizer
     
-    #use audio file
-    sr = SpeechRecognizer(src='file')
-    sr.act('sample_audio_2.wav')
-    
-    #use microphone
     sr = SpeechRecognizer()
     sr.act()
     
@@ -51,4 +28,46 @@ Example
   
   Please wait while we transcribe...
   
-  'you can not fix the thing that you have made wrong intentionally in the past'
+  'hi I am Alexios of sparta one of the many invincible warrior in the army'
+
+
+Example 2: Using audio file
+--------
+
+.. code:: python
+
+    from en_audio2text.aud2text import SpeechRecognizer
+    
+    sr = SpeechRecognizer(src='file')
+    sr.act('my_audio_file.wav')
+    
+    
+  Here is the sample ouput:
+  
+  Please wait while we transcribe...
+  
+  'you can not change what you have done wrong intentionaly in the past'
+
+
+Example 3: Display all possible transcription
+--------
+
+.. code:: python
+
+    from en_audio2text.aud2text import SpeechRecognizer
+    
+    sr = SpeechRecognizer(debug=True)
+    sr.act()
+    
+    
+  Here is the sample ouput:
+  
+  Please wait while we transcribe...
+  
+  {'alternative': [{'transcript': 'hi I am Alexios Sparta one of the many invincible why you are in the army',
+   'confidence': 0.79579026},
+  {'transcript': 'hi I am Alexa Sparta one of the many invincible why are you in the army'},
+  {'transcript': 'hi I am Alexis part one of the many invincible why you are in the army'},
+  {'transcript': 'hi I am Alexis Hospital one of the many invincible why you are in the army'},
+  {'transcript': 'hi I am Alexis part one of the many invincible why are you in the army'}],
+ 'final': True}
