@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="en_audio2text-soumyade", # Replace with your own username
-    version="0.0.2",
+    version="1.1.1",
     author="Soumya De",
     author_email="cs.soumyade@gmail.com",
     description="small wrapper around speech recognition package",
@@ -16,8 +16,8 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/cssoumyade/en_audio2text/issues",
     },
     install_requires=[ 
-	"speech_recognition",
-	"pyaudio"],
+	"SpeechRecognition",
+	"PyAudio"],
     classifiers=[
 	"Development Status :: 2 - Pre-Alpha",
 	"Intended Audience :: Other Audience",
