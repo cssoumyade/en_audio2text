@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="en_audio2text-soumyade", # Replace with your own username
-    version="0.0.1.1",
+    version="0.0.1.2",
     author="Soumya De",
     author_email="cs.soumyade@gmail.com",
     description="small wrapper around speech recognition package",
