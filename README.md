@@ -12,7 +12,7 @@ Fast install:
 
 ::
 
-    pip install -i https://test.pypi.org/simple/ en-audio2text-soumyade
+    pip install en-audio2text-soumyade
 
 For a manual install get this package:
 
