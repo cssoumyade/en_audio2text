@@ -1,4 +1,4 @@
-from setuptools import setup
+import setuptools
   
 # reading long description from file
 with open('DESCRIPTION.txt') as file:
@@ -6,7 +6,7 @@ with open('DESCRIPTION.txt') as file:
     
     
 # specify requirements of your package here
-REQUIREMENTS = ['SpeechRecognition', 'pyaudio', 'regex', 'os-sys']
+REQUIREMENTS = ['SpeechRecognition', 'pyaudio']
 
 # some more details
 classifiers=[
@@ -28,7 +28,8 @@ setup(name='en_aud2text',
       author='Soumya De',
       author_email='cs.soumyade@gmail.com',
       license='MIT',
-      packages=['en_audio2text'],
+      package_dir={"": "en_audio2text"},
+      packages=setuptools.find_packages(where="en_audio2text"),
       classifiers=classifiers,
       install_requires=REQUIREMENTS,
       keywords='speech audio text transcription'
