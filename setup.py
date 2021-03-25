@@ -15,9 +15,6 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": "https://github.com/cssoumyade/en_audio2text/issues",
     },
-    install_requires=[ 
-	"SpeechRecognition",
-	"PyAudio"],
     classifiers=[
 	"Development Status :: 2 - Pre-Alpha",
 	"Intended Audience :: Other Audience",
