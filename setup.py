@@ -16,8 +16,8 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/cssoumyade/en_audio2text/issues",
     },
     install_requires=[ 
-	speech_recognition,
-	pyaudio],
+	"speech_recognition",
+	"pyaudio"],
     classifiers=[
 	"Development Status :: 2 - Pre-Alpha"
 	"Intended Audience :: Other Audience"
