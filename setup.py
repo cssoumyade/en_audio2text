@@ -19,9 +19,9 @@ setuptools.setup(
 	"speech_recognition",
 	"pyaudio"],
     classifiers=[
-	"Development Status :: 2 - Pre-Alpha"
-	"Intended Audience :: Other Audience"
-	"Topic :: Education :: Testing"
+	"Development Status :: 2 - Pre-Alpha",
+	"Intended Audience :: Other Audience",
+	"Topic :: Education :: Testing",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
     ],
