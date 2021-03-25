@@ -1,3 +1,0 @@
-* Change readme to display proper usage and example
-* Create a notebook to test
-* Add references to readme 
