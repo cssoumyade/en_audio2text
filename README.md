@@ -7,12 +7,12 @@ The code is written in Python 3
 
 Installation
 ------------
-# To be modified
+
 Fast install:
 
 ::
 
-    pip install -i https://test.pypi.org/simple/ en-aud2text==1.0
+    pip install -i https://test.pypi.org/simple/ en-audio2text-soumyade
 
 For a manual install get this package:
 
