@@ -1,6 +1,6 @@
 import speech_recognition
 import os
-from sd_audio2text.text_rules import TextConvRules
+from en_audio2text.text_rules import TextConvRules
 
 
 class SpeechRecognizer:
