@@ -48,7 +48,7 @@ Instuctions for installation using pip
   
   'you can not change what you have done wrong intentionaly in the past'
   
-  **Note: Supported File Types **
+  **Note: Supported File Types**
   * WAV
   * AIFF
   * AIFF-C
